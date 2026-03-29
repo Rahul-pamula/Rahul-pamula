@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=48&duration=3000&pause=2000&color=FF6B9D&center=true&vCenter=true&width=600&height=80&lines=It's+me+Rahul" alt="It's me Rahul" />
 </h1>
 
-<h3 align="center">🚀 AI & ML Undergraduate | 💻 Backend Engineer | 🏗️ System Architecture</h3>
+<h3 align="center">🚀 AI Engineer | 💻 Backend Engineer | 🏗️ System Architecture</h3>
 
 <img align="right" width="350" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="Coding GIF">
 
@@ -82,7 +82,7 @@
 
 ## 🚀 Professional Experience & Projects
 
-### 1. 📧 Enterprise Email Platform – Custom Email Engine
+### 1. 📧[sh_r_mail](https://github.com/Rahul-pamula/sh_r_mail)
 **System Design & Backend Engineer** *(Jan 2026 – Present)*
 
 #### 🔴 Problem Statement
@@ -181,45 +181,6 @@ Consider a professional woman looking for a perfectly fitted blazer for business
 - **Animated Interactions:** Smooth page transitions, loading states, and micro-interactions
 
 **Tech Stack:** React | JavaScript | HTML5 | CSS3 | Tailwind CSS | Animation Libraries
-
----
-
-### 4. 💌 [sh_r_mail](https://github.com/Rahul-pamula/sh_r_mail) – Email Management & Redirection System
-**Full Stack Developer** *(Jun 2025 – Aug 2025)*
-
-#### 🔴 Problem Statement
-Many professionals have multiple email accounts across different platforms, leading to:
-- Information scattered across multiple inboxes
-- Manual email forwarding is cumbersome and error-prone
-- Lack of unified email management
-- No intelligent filtering or smart organization
-- Security concerns with email credentials and forwarding rules
-
-#### 📋 Scenario
-Consider a freelance consultant managing:
-- Personal Gmail for personal communications
-- Hotmail for freelance project notifications
-- Corporate email for client interactions
-- Multiple vendor accounts sending notifications
-
-They need to:
-- Monitor all emails from a single dashboard
-- Automatically forward important emails to a primary inbox
-- Organize emails based on sender, subject, or content
-- Maintain security of email credentials
-- Set up rules for automatic categorization
-
-#### ✅ Solution Implemented
-- **Centralized Dashboard:** Unified interface to manage and monitor multiple email accounts
-- **Secure Email Forwarding:** Encrypted email redirection with secure credential storage
-- **Smart Filtering:** Intelligent email categorization and filtering based on sender, subject, and content
-- **Rule Engine:** Create custom rules for automatic email organization and forwarding
-- **Multi-Account Support:** Connect and manage unlimited email accounts
-- **User Authentication:** Secure login with session management and account protection
-- **Real-Time Sync:** Live synchronization of emails across connected accounts
-- **Email Preview:** Quick preview of email content without opening separate clients
-
-**Tech Stack:** Full Stack Development | User Authentication | Email APIs | Database Design | Security
 
 ---
 
