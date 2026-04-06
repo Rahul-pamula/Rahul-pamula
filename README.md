@@ -86,23 +86,6 @@
 ### 1. 📧 [sh_r_mail](https://github.com/Rahul-pamula/sh_r_mail)
 **System Design & Backend Engineer** *(Jan 2026 – Present)*
 
-#### 🔴 Problem Statement
-Managing high-volume email dispatch efficiently requires decoupling backend API responses from SMTP network latency. Furthermore, mixing transactional alerts and bulk campaign emails on a single delivery channel often leads to reputation damage, causing vital system alerts to land in spam. Organizations also struggle to gain actionable insights beyond basic open rates and need intelligent tools to streamline audience segmentation and content creation.
-
-#### 📋 Scenario
-A growing SaaS platform needed a robust, self-hosted email marketing engine capable of handling targeted bulk emails with total tenant isolation. They encountered several architectural challenges:
-- Need for **isolated deliverability channels** to guarantee that marketing blasts don't compromise the delivery of critical system emails.
-- Requirement for **advanced engagement tracking**, going beyond basic metrics to include precise read-time durations and visual click heatmaps.
-- Need for a fault-tolerant, async message broker to manage scheduling, provider constraints, and webhook tracking for bounces and spam complaints securely.
-- Ambition to integrate generative AI and RAG to dynamically assist tenants in analyzing past campaign success and auto-generating optimized subjects and content.
-
-#### ✅ Solution Implemented
-- **Dual Email Engine Architecture:** Engineered a bifurcated delivery system that securely routes critical system emails via trusted Gmail SMTP, while cleanly isolating high-volume, tenant-specific bulk campaigns through AWS SES to protect global sender reputation.
-- **Async Event & Queue Processing:** Architected highly resilient, asynchronous Python consumer loops using RabbitMQ with exponential backoff mechanisms for fault-tolerant email dispatch and instant SES webhook ingestion (bounces/complaints).
-- **Advanced Observability & Analytics:** Developed custom Supabase Edge Functions for secure 1x1 pixel tracking, calculating exact engagement durations (time spent reading) and aggregating click heatmaps directly superimposed on template previews.
-- **AI-Driven Campaign Intelligence:** Integrated a custom LLM orchestration layer and a Retrieval-Augmented Generation (RAG) bot, continuously indexing successful campaigns via a vector database to automate intelligent content generation and performance querying.
-- **Scalable Multi-Tenant System:** Built a high-performance foundation utilizing Next.js 14 and FastAPI with JWT-based workspace isolation, strict daily volume quota enforcement, and rate-limiting orchestrated through Redis.
-
 **Tech Stack:** Next.js 14 | Python (FastAPI) | PostgreSQL (Supabase) | Redis | RabbitMQ | AWS SES | Docker | AI/RAG 
 
 ---
@@ -110,71 +93,12 @@ A growing SaaS platform needed a robust, self-hosted email marketing engine capa
 ### 2. 📱 [Chatnalyxer](https://github.com/Rahul-pamula/chatnalyxer) – AI-Powered WhatsApp Assistant
 **AI & Backend Developer** *(Sep 2025 – Present)*
 
-#### 🔴 Problem Statement
-WhatsApp and messaging users struggle to extract actionable insights from conversations. Manual deadline extraction and multi-modal message analysis is time-consuming:
-- Users lose important deadlines buried in conversation threads
-- Extracting information from mixed media (text, images, PDFs, voice) is manual and error-prone
-- No intelligent summarization or context understanding of conversations
-- Real-time processing of unstructured data is challenging
-
-#### 📋 Scenario
-Imagine a project team using WhatsApp for collaboration. They receive:
-- Text messages with project deadlines and technical requirements
-- Images of design mockups and whiteboard sketches
-- PDF documents with specifications and contracts
-- Voice messages with meeting notes and decisions
-- Mixed conversations in different languages
-
-The team needs to automatically:
-- Extract all deadlines and create reminders
-- Understand image content (designs, diagrams, handwritten notes)
-- Parse PDFs for key information
-- Transcribe voice messages and extract action items
-- Summarize key discussions and decisions
-
-#### ✅ Solution Implemented
-- **NLP-Powered Deadline Extraction:** Built intelligent deadline extraction using Google Gemini AI with context understanding
-- **Multi-Modal AI Processing:** Integrated Azure AI Services for comprehensive analysis:
-  - **Vision API:** Analyze images, recognize text, identify objects, and understand visual content
-  - **Document Intelligence:** Extract structured data from PDFs, forms, and receipts
-  - **Speech-to-Text:** Convert voice messages to text with high accuracy
-  - **Text Analytics:** Sentiment analysis, key phrase extraction, and entity recognition
-- **FastAPI Backend:** Production-ready backend with efficient pipeline for real-time processing
-- **Intelligent Routing:** Smart message routing based on content type and priority
-- **Context Awareness:** Maintains conversation context for better deadline and task extraction
-
 **Tech Stack:** FastAPI | Google Gemini AI | Azure AI Services | Python | PostgreSQL | NLP Libraries
 
 ---
 
 ### 3. ✂️ [Tailoring](https://github.com/Rahul-pamula/tailoring) – Premium Customized Clothing Platform
 **Full Stack Developer** *(Aug 2025 – Dec 2025)*
-
-#### 🔴 Problem Statement
-Off-the-rack clothing rarely fits everyone perfectly. Customers face challenges:
-- Generic sizes don't accommodate diverse body types
-- Finding quality tailoring services is difficult and scattered
-- No visualization of custom designs before ordering
-- Lack of precise measurement guidance leads to poor fit
-- Communication gap between customers and tailors
-
-#### 📋 Scenario
-Consider a professional woman looking for a perfectly fitted blazer for business meetings:
-- Standard sizes (S, M, L) don't accommodate her specific measurements
-- She wants to see how the blazer will look with her preferred colors and fabrics
-- Needs clear instructions on how to provide accurate measurements
-- Wants to track her measurements for future orders
-- Prefers to communicate requirements through an intuitive interface
-
-#### ✅ Solution Implemented
-- **Interactive Customization Preview:** Real-time visualization of custom designs using interactive 3D/2D design tools
-- **Measurement System:** Intelligent measurement input with visual guides and validation
-- **Premium UI/UX:** Highly polished, modern React frontend with smooth animations and transitions
-- **Product Catalog:** Extensive collection of fabrics, styles, colors, and customization options
-- **Order Management:** Complete order tracking from customization to delivery
-- **Responsive Design:** Seamless experience across desktop, tablet, and mobile devices
-- **Customer Dashboard:** Personal profile, measurement history, order history, and recommendations
-- **Animated Interactions:** Smooth page transitions, loading states, and micro-interactions
 
 **Tech Stack:** React | JavaScript | HTML5 | CSS3 | Tailwind CSS | Animation Libraries
 
