@@ -17,17 +17,21 @@
 
 ## 🔥 Current Work
 
-### 🧠 ShrMail — AI-Powered Communication System
-- Designing a scalable, event-driven backend system  
-- Focus areas:
-  - Multi-tenant architecture  
-  - Queue-based processing (RabbitMQ)  
-  - AI-powered automation  
+ShrFlow (Enterprise Email Engine)
+Role: Lead Architect & Developer
+Duration: Feb 2026 – Present
+- Architected a high-concurrency, multi-tenant system using FastAPI, PostgreSQL, and Redis with Row-Level Security (RLS) to ensure strict     workspace-level data isolation.
+- Designed a dual-pipeline email delivery architecture separating transactional and bulk traffic, preserving sender reputation and ensuring   reliable deliverability at scale.
+- Built an asynchronous dispatch engine using RabbitMQ for fault-tolerant, high-throughput email processing across distributed workers.
+  Developed a globally distributed tracking layer with Supabase Edge Functions, achieving sub-100ms latency for real-time email open and      click analytics.
+- Implemented advanced engagement analytics using HMAC-signed tracking pixels and bot filtering (Apple MPP, Gmail proxies) to ensure          accurate campaign insights.
+- Engineered a scalable data ingestion pipeline for gigabyte-scale contact imports using S3-compatible storage and chunked background         processing.
+- Established production-grade reliability and governance, including a Redis-backed bounce-rate circuit breaker, real-time campaign           controls (Pause/Cancel), and GDPR-compliant audit and PII anonymization workflows.
 
 📌 Looking for contributors and technical feedback  
 
 👉 Repository:  
-https://github.com/Rahul-pamula/Sh_R_Mail  
+https://github.com/Rahul-pamula/ShrFlow  
 
 
 ## 📫 Contact
