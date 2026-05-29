@@ -20,20 +20,7 @@
 ### 📈 Activity Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rahul-pamula&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" width="48%">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Rahul-pamula&theme=dark&hide_border=true" alt="GitHub Streak" width="48%">
-</p>
-
-### 🎯 Language Composition
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rahul-pamula&layout=compact&theme=dark&hide_border=true" alt="Top Languages">
-</p>
-
-### 📅 Contribution Graph
-
-<p align="center">
-  <img src="https://github-contribution-graph.vercel.app/api/v1/?username=Rahul-pamula&theme=dark&hide_border=true" alt="Contribution Graph">
 </p>
 
 ---
