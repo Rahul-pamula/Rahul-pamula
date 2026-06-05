@@ -15,16 +15,6 @@
 </p>
 <br>
 
-## 📊 GitHub Analytics
-
-### 📈 Activity Metrics
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Rahul-pamula&theme=dark&hide_border=true" alt="GitHub Streak" width="48%">
-</p>
-
----
-
 ## 📫 Contact
 - 📧 pamularahul123@gmail.com  
 - 💼 LinkedIn: https://www.linkedin.com/in/rahul-pamula/  
