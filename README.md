@@ -1,4 +1,7 @@
 # Rahul Pamula
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Rahul-pamula&label=Profile%20views&color=0e75b6&style=flat" alt="Rahul-pamula" />
+</p>
 
 **AI Engineer | Backend Developer | System Design Enthusiast**  
 📍 India
