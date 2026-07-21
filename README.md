@@ -13,11 +13,6 @@
 - 💻 Building scalable backend systems and AI-powered applications  
 - ⚙️ Focused on distributed systems and real-time AI integration  
 
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/rahulpamula?theme=dark&font=Aldrich" alt="LeetCode Stats">
-</p>
-<br>
-
 ## 📫 Contact
 - 📧 pamularahul123@gmail.com  
 - 💼 LinkedIn: https://www.linkedin.com/in/rahul-pamula/  
