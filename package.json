@@ -1,0 +1,25 @@
+{
+  "name": "rahul-pamula",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">   <h1>Hi there, I'm Rahul Pamula 👋</h1>   <h3>Full Stack Software Developer | AI & Cloud Enthusiast</h3>   <img src=\"https://komarev.com/ghpvc/?username=Rahul-pamula&label=Profile%20views&color=0e75b6&style=flat\" alt=\"Rahul-pamula\" /> </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahul-pamula/Rahul-pamula.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Rahul-pamula/Rahul-pamula/issues"
+  },
+  "homepage": "https://github.com/Rahul-pamula/Rahul-pamula#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^25.11.0"
+  }
+}
