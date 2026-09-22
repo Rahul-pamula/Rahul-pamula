@@ -10,7 +10,7 @@
 
   <br />
   
-  <a href="https://rahulpamula.me/review"><img src="https://img.shields.io/badge/Read%20More%20Reviews-0e75b6?style=for-the-badge&logo=github&logoColor=white" alt="Read More Reviews"/></a>
+  <a href="https://www.rahulpamula.me"><img src="https://img.shields.io/badge/Check%20Portfolio-0e75b6?style=for-the-badge&logo=github&logoColor=white" alt="Check Portfolio"/></a>
   <a href="https://rahulpamula.me/review"><img src="https://img.shields.io/badge/Leave%20a%20Review-238636?style=for-the-badge&logo=github&logoColor=white" alt="Leave a Review"/></a>
 
   <br />
