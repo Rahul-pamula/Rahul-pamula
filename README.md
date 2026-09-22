@@ -29,7 +29,7 @@
 
   <h3>🚀 Featured Projects</h3>
   <p>
-    <b><a href="https://github.com/Rahul-pamula/open-source-scout">Open Source Scout</a></b> &bull; 
+    <b><a href="https://github.com/Rahul-pamula/Open_Source_Scout">Open Source Scout</a></b> &bull; 
     <b><a href="https://github.com/Rahul-pamula/ShrFlow">ShrFlow</a></b> &bull; 
     <b><a href="https://github.com/Rahul-pamula/Email_To_Telebot">Email_To_Telebot</a></b> &bull; 
     <b><a href="https://github.com/Rahul-pamula/Chatnalyxer">Chatnalyxer</a></b> &bull; 
