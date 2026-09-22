@@ -9,6 +9,10 @@
   </a>
 
   <br />
+  
+  <a href="https://rahulpamula.me/review"><img src="https://img.shields.io/badge/Leave%20a%20Review-238636?style=for-the-badge&logo=github&logoColor=white" alt="Leave a Review"/></a>
+
+  <br />
 
   <h3>🚀 Featured Projects</h3>
   <p>
