@@ -5,10 +5,13 @@ on:
     - cron: '0 0 * * *' # Runs daily at midnight
   workflow_dispatch: # Allows manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -17,14 +20,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci || npm install puppeteer node-fetch
+        run: npm ci
 
       - name: Install Puppeteer system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libx11-xcb1 libxcomposite1 libxcursor1 libxdamage1 libxi-dev libxtst6 libnss3 libcups2 libxss1 libxrandr2 libasound2 libpangocairo-1.0-0 libatk1.0-0 libatk-bridge2.0-0 libgtk-3-0
+        run: npx puppeteer browsers install-deps chrome
 
       - name: Generate Reviews Image
         run: node scripts/generate-reviews.js
@@ -34,4 +36,4 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add reviews.png
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update dynamic reviews image" && git push)
+          git diff --cached --quiet || (git commit -m "chore: update dynamic reviews image" && git push)
